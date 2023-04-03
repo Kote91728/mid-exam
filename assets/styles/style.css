@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('/assets/fonts/Poppins-Regular.woff2') format('woff2'),
+        url('/assets/fonts/Poppins-Regular.woff') format('woff'),
+        url('/assets/fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 *{
     margin: 0;
     padding: 0;
@@ -34,6 +43,7 @@ header nav ul{
 header li a{
     color: #000000E5;
     font-size: 14px;
+    font-family: 'Poppins';
     line-height: 21px;
 }
 header ul a::after {
@@ -57,6 +67,7 @@ header span{
 header span a{
     color: #ffffff;
     font-size: 14px;
+    font-family: 'Poppins';
     line-height: 21px;
 }
 /* main */
@@ -95,6 +106,7 @@ main{
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
+    font-family: 'Poppins';
 }
 #Location-dropdown{
     padding: 4.1%;
@@ -113,6 +125,7 @@ main{
 .pr-type h3{
     margin-bottom: 4%;
     font-weight: 500;
+    font-family: 'Poppins';
 }
 input[type="checkbox"]{
     /* outline: 1.4px solid #29B24E; */
@@ -131,6 +144,7 @@ input[type="checkbox"]{
 .pr-range h3{
     margin-bottom: 4%;
     font-weight: 500;
+    font-family: 'Poppins';
 }
 .main-pc{
     padding-top: 60px;
@@ -149,11 +163,13 @@ input[type="checkbox"]{
     font-size: 48px;
     font-weight: 600;
     line-height: 72px;
+    font-family: 'Poppins';
 }
 .main-pc p{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    font-family: 'Poppins';
     color: #000000CC;
 }
 .search{
@@ -198,6 +214,7 @@ input[type="checkbox"]{
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
+    font-family: 'Poppins';
 }
 .ads-section{
     display: grid;
@@ -232,6 +249,7 @@ input[type="checkbox"]{
     padding: 6px 11px;
     font-size: 12px;
     line-height: 18px;
+    font-family: 'Poppins';
     color: #FFFFFF;
     background-color: #29B24E;
     border-radius: 15px;
@@ -257,12 +275,14 @@ input[type="checkbox"]{
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
+    font-family: 'Poppins';
     color: #000000;
 }
 .ads .item-name{
     margin-top: 8px;
     font-size: 14px;
     font-weight: 400;
+    font-family: 'Poppins';
     line-height: 21px;
     color: #000000;
     opacity: 50%;
@@ -277,12 +297,14 @@ input[type="checkbox"]{
     font-size: 12px;
     font-weight: 400;
     line-height: 18px;
+    font-family: 'Poppins';
     color: #000000;
 }
 .Price span{
     font-size: 24px;
     font-weight: 500;
     line-height: 36px;
+    font-family: 'Poppins';
     color: #29B24E;
 }
 .details{
@@ -296,6 +318,7 @@ input[type="checkbox"]{
 .details p{
     font-size: 14px;
     line-height: 21px;
+    font-family: 'Poppins';
     color: #000000;
 }
 /* footer */
@@ -321,6 +344,7 @@ footer{
 .fr-line a{
     font-weight: 400;
     font-size: 14px;
+    font-family: 'Poppins';
     color: #FFFFFF;
 }
 .footer-nav ul{
@@ -340,6 +364,7 @@ footer{
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
+    font-family: 'Poppins';
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -521,6 +546,7 @@ footer{
     padding: 6px 11px;
     font-size: 12px;
     line-height: 18px;
+    font-family: 'Poppins';
     color: #FFFFFF;
     background-color: #29B24E;
     border-radius: 15px;
@@ -530,6 +556,7 @@ footer{
     font-weight: 500;
     line-height: 23px;
     opacity: 60%;
+    font-family: 'Poppins';
     columns: #000000;
 }
 .view{
@@ -537,6 +564,7 @@ footer{
     font-weight: 500;
     line-height: 23px;
     opacity: 60%;
+    font-family: 'Poppins';
     columns: #000000;
     display: flex;
     align-items: center;
@@ -547,6 +575,7 @@ footer{
     font-size: 22px;
     line-height: 33px;
     font-weight: 600;
+    font-family: 'Poppins';
     color: #000000;
     opacity: 90%;
 }
@@ -555,6 +584,7 @@ footer{
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
+    font-family: 'Poppins';
     color: #000000;
     opacity: 60%;
 }
@@ -563,6 +593,7 @@ footer{
     margin-bottom: 40px;
     max-width: 611px;
     line-height: 23px;
+    font-family: 'Poppins';
     color: #000000;
     opacity: 80%;
 }
@@ -581,6 +612,7 @@ footer{
     font-weight: 500;
     line-height: 23px;
     opacity: 80%;
+    font-family: 'Poppins';
     color: #000000;
 }
 .address{
@@ -599,6 +631,7 @@ footer{
 }
 .address .transparent{
     font-size: 12px;
+    font-family: 'Poppins';
     line-height: 23px;
     opacity: 60%;
 }
@@ -607,6 +640,7 @@ footer{
     font-weight: 500;
     line-height: 23px;
     opacity: 80%;
+    font-family: 'Poppins';
 }
 .Facilities{
     text-align: center;
